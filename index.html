@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins">
+    <script src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/xlsxpack.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/put_data.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="up">
+        <input type="file" id="excel_file" class="form-control" accept=".xls, .xlsx"/><br>
+        <div id="excel_data" class="mt-5"></div>
+    </div>
+</div>
+<div class="down d-none">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+            <td valign="top"
+                style="display: inline-block; min-width: 184px; max-width: 100%; padding-top: 2px; padding-right: 10px; border-right: 2px solid #715c51;">
+                <img src="http://i.ibb.co/1nsgBJk/Logo.jpg" width="184" height="130" alt="Domina Coral Bay Logo"/></td>
+
+            <td valign="middle"
+                style="display:inline-block; min-width:150px; max-width:100%; padding-bottom: 9px; padding-right: 20px; padding-left: 20px; margin-right: 20px; border-right: 2px solid #715c51;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+                        <td style="padding-bottom: 10px;"><span class="heading-one"
+                                                                style="font-family:'Poppins', Arial, sans-serif; font-size:14px; line-height:16px; font-weight:600; color:#715c51; text-transform:uppercase;"
+                                                                id="put_name">Mohamed Abdel Rahman Mohamed Abdallah </span><br><span
+                                class="heading-two"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:14px; line-height:16px; font-weight:500; color:#000; text-transform:capitalize;"
+                                id="put_job">I.T Manager</span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 0px;"><span class="paragraph"
+                                                               style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:600; color:#715c51; text-transform:uppercase;">T: </span><a
+                                id="put_phone1_href" href="tel:0020693601610" target="_blank"
+                                style="color:#000; text-decoration:none !important; text-decoration:none;"><span
+                                class="paragraph"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000; text-decoration:none !important; text-decoration:none;"
+                                id="put_phone1">+2 069 360 1610 Ext. 227</span></a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 0px;"><span class="paragraph"
+                                                               style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:600; color:#715c51; text-transform:uppercase;">M: </span><a
+                                id="put_phone2_href" href="tel:00201001630350" target="_blank"
+                                style="color:#000; text-decoration:none !important; text-decoration:none;"><span
+                                class="paragraph"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000; text-decoration:none !important; text-decoration:none;"
+                                id="put_phone2">+2 0100 163 0350</span></a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 0px;"><span class="paragraph"
+                                                               style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:600; color:#715c51; text-transform:uppercase;">E: </span><a
+                                href="mailto:mabdou@dominacoralbay.com" target="_blank"
+                                style="color:#000; text-decoration:none !important; text-decoration:none;"><span
+                                class="paragraph"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000; text-decoration:none !important; text-decoration:none;"
+                                id="put_email">mabdou@dominacoralbay.com</span></a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 0px;"><span class="paragraph"
+                                                               style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:600; color:#715c51; text-transform:uppercase;">W: </span><a
+                                href="http://www.dominacoralbay.com" target="_blank"
+                                style="color:#000; text-decoration:none !important; text-decoration:none;"><span
+                                class="paragraph"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000; text-decoration:none !important; text-decoration:none;">www.dominacoralbay.com</span></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td valign="top"
+                style="display:inline-block; min-width:150px; max-width:100%; padding-bottom: 9px; padding-left: 20px; padding-right: 20px; margin-right: 20px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+                        <td style="padding-bottom: 7px; padding-top: 0px;"><span class="paragraph"
+                                                                                 style="font-family:'Poppins', Arial, sans-serif; font-size:14px; line-height:14px; font-weight:500; color:#715c51; text-transform:uppercase;">Domina Coral Bay<br>Resort, Diving, Spa &amp; Casino</span><span
+                                class="paragraph"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 0px;"><span class="paragraph"
+                                                               style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:600; color:#715c51; text-transform:uppercase;"></span><span
+                                class="paragraph"
+                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000;">P.O Box 74, Hadaba,</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 10px;"><span class="paragraph"
+                                                                style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:400; color:#000; text-decoration:none !important; text-decoration:none;">46619 Sharm El Sheikh, Egypt</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="padding-bottom: 0px;">
+                            <table width="100" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                <tr>
+                                    <td align="center" style="padding-right: 5px; border-right: 1px solid #715c51;"><a
+                                            href="http://www.tripadvisor.com/Hotel_Review-g297555-d503061-Reviews-Domina_Coral_Bay_Oasis-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+                                            target="_blank"><img src="http://i.ibb.co/DWpwg2j/tripicon.png" width="24"
+                                                                 height="24" alt="Domina TripAdvisor Page"/></a></td>
+                                    <td style="padding-left: 5px; padding-right: 5px; border-right: 1px solid #715c51;">
+                                        <a href="http://www.instagram.com/dominacoralbay" target="_blank"><img
+                                                src="http://i.ibb.co/gmdHZJD/instaicon.png" width="24" height="24"
+                                                alt="Domina Instagram Page"/></a></td>
+                                    <td style="padding-left: 5px; padding-right: 5px; border-right: 1px solid #715c51;">
+                                        <a href="http://www.facebook.com/dominacoralbay.sharm.el.sheikh/"
+                                           target="_blank"><img src="http://i.ibb.co/Pr8v8R5/faceicon.png" width="24"
+                                                                height="24" alt="Domina Facebook Page"/></a></td>
+                                    <td style="padding-left: 5px;"><a
+                                            href="http://www.youtube.com/user/DominaCoralBayTv" target="_blank"><img
+                                            src="http://i.ibb.co/17jNm3z/youtubeicon.png" width="24" height="24"
+                                            alt="Domina Youtube Page"/></a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" valign="top" style="padding-bottom: 0px; padding-left: 10px; padding-top: 7px;"><span
+                    class="paragraph"
+                    style="font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:14px; font-weight:600; color:#715c51; text-transform:uppercase;"></span><span
+                    class="paragraph"
+                    style="font-family:'Poppins', Arial, sans-serif; font-size:11.3px; line-height:14px; font-weight:400; color:#000;">Domina Coral Bay Resort, Diving, Spa &amp; Casino Awards Winning 5 Stars Resort</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" valign="top"
+                style="display:inline-block; min-width:125px; max-width:100%; padding-bottom: 0px; padding-left: 5px; padding-right: 10px; padding-top: 7px;">
+                <a href="http://www.luxurylifestyleawards.com/" target="_blank"><img
+                        src="http://i.ibb.co/Xjx445K/luxury.png" width="125" height="100"
+                        alt="Luxury Lifestyle Awards"/></a><a href="http://www.luxuryhotelawards.com/"
+                                                              target="_blank"><img
+                    src="http://i.ibb.co/3rmsHwr/nominee.png" width="125" height="100" alt="World Luxury Hotel Award"/></a><a
+                    href="http://www.hautegrandeur.com/" target="_blank"><img src="http://i.ibb.co/4p5mZw1/haute.png"
+                                                                              width="125" height="100"
+                                                                              alt="Haute Grandeur Global Hotel Awards"/></a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <button type="button" class="btn btn-primary d-print-none" onclick="change()">Change</button>
+    </center>
+</div>
+</body>
+<script src="assets/js/get_excel_data.js"></script>
+</html>

@@ -1,0 +1,27 @@
+#s0{
+    display: none;
+}
+
+/*----- hotel css -----*/
+img { outline: none; text-decoration: none; border: none; }
+p { margin: 0px !important; }
+a { color: #000 !important; text-decoration:none !important; }
+
+@media only screen and (max-width: 480px) {
+    .heading-one {
+        font-size:12px !important;
+        line-height:14px !important;
+    }
+
+    .heading-two {
+        font-size:11px !important;
+        line-height:12px !important;
+    }
+
+    .paragraph {
+        font-size:10px !important;
+        line-height:11px !important;
+    }
+}
+
+href>a { color:#000; text-decoration: none !important; text-decoration: none; }
