@@ -10,11 +10,12 @@ function select(num) {
 
     $("#put_name").text(name)
     $("#put_job").text(job)
-    $("#put_phone1").text("+"+phone1)
-    $("#put_phone1_href").attr("href","00"+phone1)
-    $("#put_phone2").text("+"+phone2)
-    $("#put_phone2_href").attr("href","00"+phone2)
+    $("#put_phone1").text("+" + phone1)
+    $("#put_phone1_href").attr("href", "tel:00" + phone1)
+    $("#put_phone2").text("+" + phone2)
+    $("#put_phone2_href").attr("href", "tel:00" + phone2)
     $("#put_email").text(email)
+    $("#put_email_href").attr("href", "mailto:" + email)
 }
 
 function change() {

@@ -25,7 +25,8 @@ excel_file.addEventListener('change', (event) => {
         var sheet_data = XLSX.utils.sheet_to_json(work_book.Sheets[sheet_name[0]], {header: 1});
 
         if (sheet_data.length > 0) {
-            var table_output = '<table class="table table-striped table-bordered">';
+            var table_output = '<div class="table-responsive">';
+            table_output += '<table class="table table-striped table-bordered">';
 
             for (var row = 0; row < sheet_data.length; row++) {
 
@@ -49,7 +50,7 @@ excel_file.addEventListener('change', (event) => {
 
             }
 
-            table_output += '</table>';
+            table_output += '</table></div>';
 
             document.getElementById('excel_data').innerHTML = table_output;
         }
