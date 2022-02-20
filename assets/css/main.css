@@ -3,6 +3,7 @@
 }
 
 /*----- hotel css -----*/
+/*
 img { outline: none; text-decoration: none; border: none; }
 p { margin: 0px !important; }
 a { color: #000 !important; text-decoration:none !important; }
@@ -24,4 +25,20 @@ a { color: #000 !important; text-decoration:none !important; }
     }
 }
 
-href>a { color:#000; text-decoration: none !important; text-decoration: none; }
+href>a { color:#000; text-decoration: none !important; text-decoration: none; }*/
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    border-right: thin solid #705C51;
+}
+img {
+    outline: none;
+    text-decoration: none;
+    border-spacing: 0 0;
+    border: none;
+}
+p { margin: 0px !important; }
+a { color: #705C51 !important; text-decoration:none !important; }
+href>a { color:#705C51; text-decoration: none !important; text-decoration: none; }
